@@ -1,0 +1,57 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+
+# Unity-specific
+*.unity binary
+*.prefab binary
+*.asset binary
+*.mat binary
+*.fbx binary
+*.FBX binary
+*.tga binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tif binary
+*.tiff binary
+*.gif binary
+*.psd binary
+*.psb binary
+*.bmp binary
+*.iff binary
+*.aiff binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.exr binary
+*.gz   binary
+*.zip  binary
+*.ttf  binary
+*.otf  binary
+*.fnt  binary
+
+# Shader files can be text
+*.shader text
+
+# Force text for specific files
+*.md text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+*.csv text
